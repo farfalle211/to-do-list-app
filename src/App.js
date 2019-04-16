@@ -29,16 +29,16 @@
 
 
 import React from "react";
-
+import Checkbox from './components/Checkbox';
 
 function App() {
   return (
     <div>
-      <input type="checkbox" /> <p>Assemble Bed</p>
-      <input type="checkbox" /> <p>Work on Hackerrank</p>
-      <input type="checkbox" /> <p>Prepare for Boston</p>
+      <Checkbox /> <p>Assemble Bed</p>
+      <Checkbox /> <p>Work on Hackerrank</p>
+      <Checkbox /> <p>Prepare for Boston</p>
     </div>
   )
 }
 
-export default App
+export default App;
