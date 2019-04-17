@@ -29,14 +29,14 @@
 
 
 import React from "react";
-import Checkbox from './components/Checkbox';
+import ToDoItem from './components/ToDoItem';
 
 function App() {
   return (
-    <div>
-      <Checkbox /> <p>Assemble Bed</p>
-      <Checkbox /> <p>Work on Hackerrank</p>
-      <Checkbox /> <p>Prepare for Boston</p>
+    <div className="todo-list">
+      <ToDoItem />
+      <ToDoItem />
+      <ToDoItem />
     </div>
   )
 }
